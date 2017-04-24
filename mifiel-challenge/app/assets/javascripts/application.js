@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require create_pdf_file
+
+$(function() {
+    console.log( "ready!" );
+});

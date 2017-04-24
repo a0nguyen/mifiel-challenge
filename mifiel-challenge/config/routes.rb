@@ -3,7 +3,13 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'landing#show'
+
+  post 'pdf/create' => 'pdf#create'
+
+  get '/pdf/:id' => 'pdf#show'
+
+  post '/pdf/:id/send' => 'pdf#send_pdf'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

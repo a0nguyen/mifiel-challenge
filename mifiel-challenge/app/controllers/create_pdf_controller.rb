@@ -1,2 +1,0 @@
-class CreatePdfController < ApplicationController
-end

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.header{
+  font-weight: 300;
+}
+
+.pink-material{
+  color: #ee6e73;
+}

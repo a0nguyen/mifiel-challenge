@@ -22,5 +22,11 @@ module MifielChallenge
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    Mifiel.config do |config|
+      config.app_id = '579d5d93461ad661ff8b74cb2c1a423f2464c5f9'
+      config.app_secret = 'G5nFGU4efxrC0QB8eKwkOJ0mVwmvWpWOuL3dVl2JxoRKTMQNVTayxp/wcdEYKtse/KFW0GyovWYIDjIUHslhGg=='
+      config.base_url = 'https://app-sandbox.mifiel.com/api/v1'
+    end
   end
 end
