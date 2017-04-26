@@ -18,4 +18,6 @@
 
 $(function() {
     console.log( "ready!" );
+    $('.modal').modal();
+    $('#modal1').modal("open");
 });
